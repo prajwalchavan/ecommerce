@@ -27,10 +27,11 @@ const Info = styled.div`
     align-items: center;
     justify-content: center;
 `;
-const Title = styled.h1`
+const Title = styled.div`
     color:#000000;
     margin-bottom: 30px;
     font-weight: bold;
+    /* ${mobile({  })} */
 `;
 const Button = styled.button`
     border:none;
